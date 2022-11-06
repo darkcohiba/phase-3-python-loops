@@ -9,8 +9,8 @@ def happy_new_year():
     
 
 def square_integers(int_list):
-    # code goes here
-    pass
+    int_list = [height * height for height in int_list]
+    return int_list
 
 def fizzbuzz():
     # code goes here
